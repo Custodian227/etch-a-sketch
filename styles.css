@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+#main{
+    width: 800px;
+    margin: auto;
+}
+
+#flex-container{
+    width: 100%;
+    height: contain;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+
+#gridHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#gridTitle{
+    width: 50%;
+    text-align: left;
+}
+
+#gridGeneration{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.gridInput{
+    margin-right: 10px;
+    width: 35%;
+    height: 40px;
+}
+
+.headerButton{
+    width: 100px;
+    height: 40px;
+}
+
+#generateBtn{
+    background-color: limegreen;
+    border: 0px solid limegreen;
+    margin-left: 10px;
+}
+
+#resetBtn{
+    background-color: orange;
+    border: 0px solid orange;
+}
+
+
+
+
+
+
